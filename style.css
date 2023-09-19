@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #4b93bf;
+  color: #e4eef1;
+  height: 17vh;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30vw;
+}
+header img {
+  display: flex;
+  height: 15vh;
+  width: 15;
+}
+
+a {
+  height: 30vh;
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+a:hover {
+  color: blue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  opacity: 1;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+  width: 60vw;
+  list-style-type: none;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background: #4b93bf;
+  height: 25vh;
+}
+footer figure {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 18.5vw;
+  height: 10vh;
+}
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer ul {
+  text-align: center;
+  list-style-type: none;
+  color: #e4eef1;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+.inverno1 {
+  height: 350px;
+  background: #e4eef1;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.inverno2 {
+  width: 500px;
+  color: #0f468c;
+  font-size: 20px;
+  font-family: Inter;
+}
+
+.gramado {
+  height: 250px;
+  background: #4b93bf;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.gramadotexto {
+  color: #e4eef1;
+  font-size: 32px;
+  font-family: Inter;
+}
+.imgUrso {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.link {
+  display: flex;
+  flex-direction: baseline;
+  align-items: flex-start;
+  height: 5vh;
+  width: 10vw;
+}
