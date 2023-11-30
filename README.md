@@ -1,2 +1,2 @@
 # ProjetoWinter-DesafioVnW
-Created with CodeSandbox
+  Projeto criado para prática o conhecimento obtido na aulas de Flexbox no Vai na Web. 
